@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-
+# source aliases after
 tre() {
   command tre "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null;
 }
