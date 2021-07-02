@@ -17,7 +17,7 @@ tre() {
   command tre "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null;
 }
 ```
-You can read more about this in `tre`'s [readme](https://github.com/dduan/tre).
+You can read more about this in `tre`'s [readme](https://github.com/dduan/tre#editor-aliasing).
 
 ## Author
 **tre** © [Gabe Dunn](https://github.com/redxtech), Released under the [MIT](./license.md) License.
