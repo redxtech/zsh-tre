@@ -2,6 +2,18 @@
 > tre is a zsh plugin that makes using `tre` easier.
 
 ## Installing
+
+### zinit
+Add this to your zinit config (.zshrc):
+```zsh
+zinit light redxtech/zsh-tre
+
+# it also works with turbo mode:
+zinit ice wait lucid
+zinit load redxtech/zsh-tre
+```
+
+### oh-my-zsh
 Install it with your favourite zsh package manager, or clone it directly to your
 `$ZSH_CUSTOM/plugins` directory with git, and add `zsh-tre` to the plugins
 array in your `.zshrc` file:
